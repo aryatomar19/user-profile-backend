@@ -40,7 +40,7 @@ const upload = multer({
 
 // Health check
 app.get('/', (req, res) => {
-  res.send("Backend is running ✅");
+  res.send("Backend is up and  running ✅");
 });
 
 // Add user with image upload
